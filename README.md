@@ -78,14 +78,3 @@ rag-assistant/
 └── vectorstore/           # Chroma 持久化目录，不提交
 ```
 
-## 界面截图
-
-截图占位：运行 `python app.py` 后，打开 `http://127.0.0.1:7860` 截取完整界面，并将图片保存为 `docs/screenshot.png`，再替换下面的占位路径：
-
-`![DocuQA 界面截图](docs/screenshot.png)`
-
-## 安全说明
-
-- `.env`、API 密钥、私有文档、向量库和本地模型缓存均已加入 `.gitignore`。
-- 发布到公开仓库前，请确认没有把真实密钥写入源码、README、Notebook 或日志。
-- 如果密钥曾经被公开，应立即在服务商后台撤销并重新生成。
